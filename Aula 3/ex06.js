@@ -4,7 +4,7 @@ const ano = 2024; // Teste com 2024, 1900 ou 2000
 const ehBissexto = (ano % 4 === 0 && ano % 100 !== 0) || (ano % 400 === 0);
 
 if (ehBissexto) {
-    console.log(`${ano} é Bissexto! ✅`);
+    console.log(`${ano} é Bissexto!`);
 } else {
-    console.log(`${ano} NÃO é Bissexto! ❌`);
+    console.log(`${ano} NÃO é Bissexto!`);
 }
